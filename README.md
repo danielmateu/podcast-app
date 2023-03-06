@@ -2,7 +2,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, install all the dependencies with:
+
+```
+npm i
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -24,4 +30,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - Tailwindcss, postcss and autoprefixer for a fast design
 - Axios but finally I used the fetchApi
--
+
+````
+I have created the application with nextjs because the creation of dynamic pages is clearer and easier for me, although it is true that I have had problems when performing the corresponding fetching, it has been very motivating to perform this practice.`
+````
