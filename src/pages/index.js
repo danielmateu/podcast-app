@@ -14,41 +14,6 @@ export default function Home({ podcast }) {
     return podcast['im:name'] ? podcast['im:name'].label.toLowerCase().includes(searchTerm.toLowerCase()) : false;
   })
 
-
-
-  //   const savedPodcasts = JSON.parse(localStorage.getItem(PODCASTS_STORAGE_KEY));
-  //   const lastUpdated = localStorage.getItem(`${PODCASTS_STORAGE_KEY}_lastUpdated`);
-  //   const limit = 100;
-  //   /* This is a conditional statement that checks if there are saved podcasts and if the last time
-  //   they were updated was less than a day ago. If so, it sets the podcasts to the saved podcasts and
-  //   returns. */
-  //   if (savedPodcasts && lastUpdated && Date.now() - lastUpdated < ONE_DAY_IN_MS) {
-  //     setPodcasts(savedPodcasts);
-  //     return;
-  //   }
-
-  //   fetch(`https://itunes.apple.com/us/rss/toppodcasts/limit=${limit}/genre=1320/json`)
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       /* Getting the data from the API and saving it in a variable. */
-  //       const newPodcasts = data.feed.entry;
-  //       setPodcasts(newPodcasts);
-  //       // setCount(podcasts.length)
-  //       /* Saving the podcasts in the local storage. */
-  //       localStorage.setItem(PODCASTS_STORAGE_KEY, JSON.stringify(newPodcasts));
-  //       /* Saving the date when the podcasts were last updated. */
-  //       localStorage.setItem(`${PODCASTS_STORAGE_KEY}_lastUpdated`, Date.now());
-  //       setLoading(false);
-
-  //       setCount(filteredPodcasts.length);
-  //     }).catch((err) => {
-  //       console.log(err);
-  //     })
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, []);
-
-
-  // console.log(props);
   return (
     <Layout
       title='Podcasts'
