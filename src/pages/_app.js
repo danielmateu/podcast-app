@@ -1,3 +1,4 @@
+import ErrorBoundary from '@/components/ErrorBoundary'
 import { Layout } from '@/components/Layout'
 import { LoadingIndicator } from '@/components/LoadingIndicator'
 import '@/styles/globals.css'
@@ -8,6 +9,7 @@ export default function App({ Component, pageProps }) {
 
   const router = useRouter()
   const [isLoading, setIsLoading] = useState(false)
+  
 
   useEffect(() => {
     const handleStart = () => setIsLoading(true);
@@ -27,9 +29,9 @@ export default function App({ Component, pageProps }) {
 
 
   return (
-    <>
+    <ErrorBoundary>
       {isLoading && <LoadingIndicator />}
       <Component {...pageProps} />
-    </>
+    </ErrorBoundary>
   )
 }
