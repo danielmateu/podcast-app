@@ -70,7 +70,8 @@ export default function Home({ podcast }) {
 }
 
 export const getServerSideProps = async (context) => {
-  const res = await fetch(`https://itunes.apple.com/us/rss/toppodcasts/limit=100/genre=1320/json`)
+  const limit = 100;
+  const res = await fetch(`https://itunes.apple.com/us/rss/toppodcasts/limit=${limit}/genre=1320/json`)
   const podcasts = await res.json()
   // console.log(podcasts);
   return {

@@ -30,6 +30,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - Tailwindcss, postcss and autoprefixer for a fast design
 - Axios but finally I used the fetchApi
+- mini-css-extract-plugin terser-webpack-plugin css-minimizer-webpack-plugin (for developer and production configuration)
 
 ````
 I have created the application with nextjs because the creation of dynamic pages is clearer and easier for me, although it is true that I have had problems when performing the corresponding fetching, it has been very motivating to perform this practice.`
