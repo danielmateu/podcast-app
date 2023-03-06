@@ -4,7 +4,7 @@ import React from 'react'
 
 export const EpisodesInfo = ({podcastData}) => {
     return (
-        <div className=' flex flex-col w-8/12 shadow-lg p-6'>
+        <div className=' flex flex-col md:w-8/12 shadow-lg p-6'>
             <h2 className='text-2xl font-semibold text-gray-600 shadow-lg p-2 rounded-xl my-4'>
                 {/* Episodes {podcastData.resultCount - 1} */}
                 {/* Episodes {podcastData.results.length} */}
@@ -38,9 +38,6 @@ export const EpisodesInfo = ({podcastData}) => {
                                         <p className=''>{formatearDuracion(podcast.trackTimeMillis)}</p>
                                     </div>
                                 </div>
-                                {/* <audio controls muted>
-                                            <source src={podcast.previewUrl} type='audio/mp4' />
-                                        </audio> */}
                             </div>
                         )
                     )

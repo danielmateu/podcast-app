@@ -3,10 +3,8 @@ import React from 'react'
 
 export const Sidebar = ({podcastData}) => {
 
-    console.log(podcastData);
-
     return (
-        <div className='shadow-lg flex flex-col   text-start rounded-xl p-2 m-2 w-4/12 h-fit'>
+        <div className='shadow-lg flex flex-col text-start rounded-xl p-2 m-2 md:w-4/12 h-fit'>
         {podcastData && (
             <>
                 <Image

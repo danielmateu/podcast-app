@@ -9,7 +9,7 @@ const PodcastPage = ({ podcastData }) => {
             title={podcastData && podcastData.results[0].collectionName}
             description={podcastData && podcastData.results[0].collectionName}
         >
-            <main className='flex'>
+            <main className='flex flex-col sm:flex-row items-center sm:items-start'>
                 <Sidebar podcastData={podcastData} />
                 <EpisodesInfo podcastData={podcastData} />
             </main>

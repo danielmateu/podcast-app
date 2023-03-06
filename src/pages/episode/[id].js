@@ -20,8 +20,7 @@ export const getServerSideProps = async (context) => {
     const { id } = context.params
     const response = await fetch(`https://itunes.apple.com/search?term=${id}&entity=podcastEpisode`)
     const data = await response.json()
-    // console.log(data);
-
+    
     return {
         props: {
             episodeData: data

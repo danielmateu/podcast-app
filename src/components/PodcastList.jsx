@@ -5,7 +5,7 @@ import 'animate.css';
 
 export const PodcastList = ({filteredPodcasts,}) => {
     return (
-        <ul className='grid grid-cols-4 gap-6 text-center '>
+        <ul className='grid xs:grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center '>
             {filteredPodcasts.map((podcast) => (
                 <Link
                     key={podcast.id.attributes['im:id']}
