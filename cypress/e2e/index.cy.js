@@ -20,6 +20,12 @@ describe('template spec', () => {
     cy.get('[data-cy="main-page"]').should('be.visible')
   })
 
-  
+  // Se debe conectar a la API y traer los datos
+  it('should connect to the API and bring the data', () => {
+    cy.visit('http://localhost:3000/')
+    cy.get('input').type('city')
+    // cy.get('button').click()
+    cy.get('main').should('have.length', 1)
+  })
 
 })
