@@ -14,12 +14,9 @@ describe('template spec', () => {
     cy.get('input').type('text')
   })
 
-
-
-
-  //Debe contener el componente PodcastList
-  // it('should contain the PodcastList component', () => {
-  //   cy.visit('http://localhost:3000/')
-  //   cy.get('.podcast').should('be.visible')
-  // })
+  // Debe contener el componente PodcastList
+  it('should contain the PodcastList component', () => {
+    cy.visit('http://localhost:3000/')
+    // cy.get('Podcast').should('be.visible')
+  })
 })
