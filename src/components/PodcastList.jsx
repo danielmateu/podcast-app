@@ -19,9 +19,15 @@ export const PodcastList = ({ filteredPodcasts }) => {
                             data-cy='podcast-image'
                         />
                         <div className='h-24 flex flex-col justify-end'>
-                            <h3 className='font-semibold text-gray-700'>{podcast['im:name'].label.toUpperCase().split(' ').slice(0, 2).join(' ')}</h3>
+                            <h3
+                                data-cy='podcast-name'
+                                className='font-semibold text-gray-700'>{podcast['im:name'].label.toUpperCase().split(' ').slice(0, 2).join(' ')}
+                            </h3>
 
-                            <p className='text-gray-600'>{podcast['im:artist'].label.split(' ').slice(0, 4).join(' ')}</p>
+                            <p
+                                data-cy='podcast-author'
+                                className='text-gray-600'>{podcast['im:artist'].label.split(' ').slice(0, 4).join(' ')}
+                            </p>
                         </div>
                     </li>
                 </Link>
