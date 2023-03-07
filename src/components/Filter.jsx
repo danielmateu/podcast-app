@@ -9,7 +9,7 @@ export const Filter = ({ searchTerm, setSearchTerm, filteredPodcasts }) => {
                 type="text"
                 placeholder='Filter podcasts...'
                 id='filter'
-                className='p-2  '
+                className='p-2'
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
             />
