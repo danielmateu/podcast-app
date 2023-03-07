@@ -20,14 +20,6 @@ describe('template spec', () => {
     cy.get('[data-cy="main-page"]').should('be.visible')
   })
 
-  //Que el main contenga el componente Filter y el componente PodcastList
-  // it('El main contenga el componente Filter y el componente PodcastList', () => {
-  //   cy.visit('http://localhost:3000/')
-  //   cy.get('[data-cy="filter"]').should('exist')
-  // })
-
-
-  // Debe contener el componente PodcastList
   
 
 })

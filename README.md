@@ -35,4 +35,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ````
 I have created the application with nextjs because the creation of dynamic pages is clearer and easier for me, although it is true that I have had problems when performing the corresponding fetching, it has been very motivating to perform this practice.`
+
+For the tests I have used cypress as it is currently the most suitable tool for E2E tests.
 ````
