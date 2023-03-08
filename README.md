@@ -28,11 +28,6 @@ La principal decisión de usar NextJS para este proyecto ha sido por el manejo d
 Tambien se ha tenido en cuenta la fácil configuración que ofrece el framework.
 Además, Next es conocido por su capacidad para realizar renderizado del lado del servidor, lo que significa que las páginas se pueden renderizar en el servidor y enviar al navegador listas para ser utilizadas. Esto puede mejorar significativamente el tiempo de carga de tu aplicación, lo que a su vez mejorará la experiencia del usuario.
 
-## WHY NEXTJS?
-La principal decisión de usar NextJS para este proyecto ha sido por el manejo del enrutamiento, ya que NextJS tiene un sistema de enrutamiento incorporado que facilita el manejo de la navegación entre las diferentes páginas de la aplicación. 
-Tambien se ha tenido en cuenta la fácil configuración que ofrece el framework.
-Además, Next es conocido por su capacidad para realizar renderizado del lado del servidor, lo que significa que las páginas se pueden renderizar en el servidor y enviar al navegador listas para ser utilizadas. Esto puede mejorar significativamente el tiempo de carga de tu aplicación, lo que a su vez mejorará la experiencia del usuario.
-
 ## Instalación
 Para ejecutar el proyecto en su computadora, siga los siguientes pasos:
 
