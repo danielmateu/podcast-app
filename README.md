@@ -1,40 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Título del proyecto
+podcast-app
 
-## Getting Started
+## Descripción del proyecto
+Este proyecto es una aplicación web que utiliza la API de ITUNES para mostrar los 100 mejores podcasts de la actualidad. Al iniciar la aplicación, se muestran los 100 podcasts y cuando se hace click en la imagen de cada podcast, se dirige a una página creada dinámicamente que muestra la información del podcast y los episodios relacionados. La url será generada siempre a partir de la id del própio podcast.
 
-First, install all the dependencies with:
+ Al hacer clic en los episodios, se genera otra página dinámica donde se puede reproducir el episodio y ver más información del podcast. La url será generada siempre a partir de la id del própio episodio.
 
-```
-npm i
-```
+## Características principales
+Utiliza la API de ITUNES para obtener información de los podcasts y episodios
+Muestra los 100 mejores podcasts de la actualidad.
+Página dinámica para cada podcast que muestra información detallada y episodios relacionados
+Página dinámica para cada episodio que permite la reproducción y muestra información detallada del podcast
 
-Then, run the development server:
+## Tecnologías utilizadas
+NextJs 13
+ReactJs 18
+Tailwindcss
+API de ITUNES 
+[toppodcasts: https://itunes.apple.com/us/rss/toppodcasts/limit=${limit}/genre=1320/json]
+[episodeInfo: https://itunes.apple.com/lookup?id=${id}&media=podcast&entity=podcastEpisode&limit=20]
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Instalación
+Para ejecutar el proyecto en su computadora, siga los siguientes pasos:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-# Installations 
-
-- Tailwindcss, postcss and autoprefixer for a fast design
-- Axios but finally I used the fetchApi
-- mini-css-extract-plugin terser-webpack-plugin css-minimizer-webpack-plugin (for developer and production configuration)
-- Cypress for the E2E testing
+Clone este repositorio utilizando el siguiente comando:`
 
 ````
-I have created the application with nextjs because the creation of dynamic pages is clearer and easier for me, although it is true that I have had problems when performing the corresponding fetching, it has been very motivating to perform this practice.`
+git clone https://github.com/danielmateu/podcast-app.git`
+````
 
-For the tests I have used cypress as it is currently the most suitable tool for E2E tests.
+Ingrese al directorio del proyecto:
+```
+cd podcasts-app
+```
+
+Instale las dependencias del proyecto:
+````
+npm install
+````
+
+Inicie la aplicación:
+````
+npm run dev
 ````
