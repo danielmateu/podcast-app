@@ -5,7 +5,7 @@ podcast-app
 [![Preview de la aplicación](https://img.youtube.com/vi/aQlg4CkUNFA/0.jpg)](https://www.youtube.com/watch?v=aQlg4CkUNFA)   
 
 
-## PRevisualización del código
+## Previsualización del código
 [![Preview del código realizado](https://img.youtube.com/vi/TK42WVjSDwU/0.jpg)](https://www.youtube.com/watch?v=TK42WVjSDwU)   
 
 
