@@ -2,7 +2,13 @@
 podcast-app
 
 ## Previsualización de la App
-[![Preview de la aplicación](https://img.youtube.com/vi/aQlg4CkUNFA/0.jpg)](https://www.youtube.com/watch?v=aQlg4CkUNFA)
+[![Preview de la aplicación](https://img.youtube.com/vi/aQlg4CkUNFA/0.jpg)](https://www.youtube.com/watch?v=aQlg4CkUNFA)   
+
+
+## PRevisualización del código
+![isyoutube](https://www.youtube.com/watch?v=TK42WVjSDwU)
+
+
 
 ## Descripción del proyecto
 Este proyecto es una aplicación web que utiliza la API de ITUNES para mostrar los 100 mejores podcasts de la actualidad. Al iniciar la aplicación, se muestran los 100 podcasts. Tenemos una pequeña función de filtrado para buscar los podcast por su nombre y/o autor. Esta mísma función nos indicará el número de coincidencias. Cuando se hace click en la imagen de cada podcast, se dirige a una página creada dinámicamente que muestra la información del podcast y los episodios relacionados. La url será generada siempre a partir de la id del própio podcast.
