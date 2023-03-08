@@ -6,7 +6,8 @@ podcast-app
 
 
 ## PRevisualización del código
-![isyoutube](https://www.youtube.com/watch?v=TK42WVjSDwU)
+[![Preview del código realizado](https://img.youtube.com/vi/TK42WVjSDwU/0.jpg)](https://www.youtube.com/watch?v=TK42WVjSDwU)   
+
 
 
 
