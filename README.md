@@ -2,10 +2,7 @@
 podcast-app
 
 ## Previsualización de la App
-<video controls='controls' width={600} autoPlay='autoPlay'>
-    <source src='https://res.cloudinary.com/daniel-mateu-pardo/video/upload/v1678276533/podcast-app_bhawwb.mp4' type='video/mp4'/>
-    
-</video>
+[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
 
 ## Descripción del proyecto
 Este proyecto es una aplicación web que utiliza la API de ITUNES para mostrar los 100 mejores podcasts de la actualidad. Al iniciar la aplicación, se muestran los 100 podcasts y cuando se hace click en la imagen de cada podcast, se dirige a una página creada dinámicamente que muestra la información del podcast y los episodios relacionados. La url será generada siempre a partir de la id del própio podcast.
