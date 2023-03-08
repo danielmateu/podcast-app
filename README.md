@@ -2,7 +2,7 @@
 podcast-app
 
 ## Previsualización de la App
-[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+[![Preview de la aplicación](https://img.youtube.com/vi/aQlg4CkUNFA/0.jpg)](https://www.youtube.com/watch?v=aQlg4CkUNFA)
 
 ## Descripción del proyecto
 Este proyecto es una aplicación web que utiliza la API de ITUNES para mostrar los 100 mejores podcasts de la actualidad. Al iniciar la aplicación, se muestran los 100 podcasts y cuando se hace click en la imagen de cada podcast, se dirige a una página creada dinámicamente que muestra la información del podcast y los episodios relacionados. La url será generada siempre a partir de la id del própio podcast.
@@ -22,6 +22,11 @@ Página dinámica para cada episodio que permite la reproducción y muestra info
 - API de ITUNES 
 [toppodcasts: https://itunes.apple.com/us/rss/toppodcasts/limit=${limit}/genre=1320/json]
 [episodeInfo: https://itunes.apple.com/lookup?id=${id}&media=podcast&entity=podcastEpisode&limit=20]
+
+## WHY NEXTJS?
+La principal decisión de usar NextJS para este proyecto ha sido por el manejo del enrutamiento, ya que NextJS tiene un sistema de enrutamiento incorporado que facilita el manejo de la navegación entre las diferentes páginas de la aplicación. 
+Tambien se ha tenido en cuenta la fácil configuración que ofrece el framework.
+Además, Next es conocido por su capacidad para realizar renderizado del lado del servidor, lo que significa que las páginas se pueden renderizar en el servidor y enviar al navegador listas para ser utilizadas. Esto puede mejorar significativamente el tiempo de carga de tu aplicación, lo que a su vez mejorará la experiencia del usuario.
 
 ## Instalación
 Para ejecutar el proyecto en su computadora, siga los siguientes pasos:
